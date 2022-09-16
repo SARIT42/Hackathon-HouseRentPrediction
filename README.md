@@ -6,4 +6,4 @@ FrontEnd-HTML,CSS.
 
 BackEnd-Flask.
 
-Model Used-Stacking Regressor.
+Model Used- Stacking Regressor of XGBRegressor, LGBMRegressor, and CatBoostRegressor.
