@@ -1,0 +1,23 @@
+MACHINE KNIGHT HACKATHON :
+
+Team Members:
+1)Sarit Samyak Rath
+2)Nirmit Gupta
+3)Sparsh Mahajan
+4)B.Prithiraj
+
+APPROACH:
+
+1) We loaded the dataset and checked for null and duplicate values.
+2) They were plenty of columns with categorical data.We decided to apply 
+   One Hot Encoding to those columns .
+3) For the "amenities"  column we decided to split all the instances in the 
+   column and create  respective columns for them.
+4) Now our dataset is ready for modeling.
+5) We used mainly three kinds of regressor i.e XGBoost, CatBoost and LBGMRegressor.
+   We also tried blending various model outputs and eventually finalised a stacked model
+   of all the above three models using StackingRegressor.
+6) The more significant model was CatBoostRegressor where we specifically provided 
+   input for the specific columns to be considered categorical columns.
+7) We then dumped the model using pickle.
+8)
